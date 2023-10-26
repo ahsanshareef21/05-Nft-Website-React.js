@@ -35,6 +35,7 @@ const Home = () => {
             {/*  Mapping the Data Items */}
             <hr className="white_color" />
             <div className="row">
+              
               {topCategories.map((Category) => (
                 <>
                   <div className="col-6 col-lg-4 col-md-4 col-sm- text-center">
